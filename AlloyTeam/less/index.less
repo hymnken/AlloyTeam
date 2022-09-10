@@ -1,0 +1,52 @@
+//banner
+.carousel{
+    //视口小于768 图250 max-width
+    //视口小于于992 图400 max-width
+    //视口大于992 图500 min-width
+
+    img{
+        height: 100% !important;
+    }
+
+    @media (max-width:992px) {
+        .item{
+            height: 400px;
+        }
+    }
+
+    @media (max-width:768px) {
+        .item{
+            height: 250px;
+        }
+    }
+    @media (min-width:992px){
+        .item{
+            height: 500px;
+        }
+    }
+}
+
+//头部 
+.navbar-default{
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-right li a{
+    color: #FFF !important;
+}
+
+.project{
+    text-align: center;
+    padding-top: 30px;
+    .container{
+        div{
+            background-color: pink;
+        }
+        a{
+            display: block;
+            height: 200px;
+            background-color: skyblue;
+        }
+    }
+}
